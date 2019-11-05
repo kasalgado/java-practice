@@ -24,4 +24,23 @@ public class ConverterTest {
         
         assertEquals(cms * factor, converter.cmsToInches(cms));
     }
+    
+    @Test
+    public void testCanGetFahrenheitFromCelcius() {
+        double expected = 75.2;
+        
+        Converter converter = new Converter();
+        
+        assertEquals(expected, converter.celciusToFahrenheit(24.0));
+    }
+    
+    @Test
+    public void testCanGetTotalSecondsFromInteger() {
+        String expected = "5000 seconds = 1 hours, 23 minutes, and 20 seconds";
+        int value = 5000;
+        
+        Converter converter = new Converter();
+        
+        assertEquals(expected, converter.totalSeconds(value));
+    }
 }
