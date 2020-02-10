@@ -2,9 +2,9 @@ package com.kas.practice;
 
 public class AboutStrings {
 
-    public static void main(String [] args) {
-        String message = letter("Malin", 2);
-        System.out.println(message);
+    public static void main(String[] args) {
+        String gotIt = position("Malin", 2, 'a');
+        System.out.println(gotIt);
         
         alphabet();
         
@@ -14,10 +14,10 @@ public class AboutStrings {
         System.out.println(text.replace("Computer Science", "CS"));
     }
     
-    public static String letter(String name, int p) {
+    public static String position(String name, int p, char c) {
         char a = name.charAt(p);
         
-        if (a == 'a') {
+        if (a == c) {
             return "You got it";
         } else {
             return "You got it";
