@@ -1,4 +1,4 @@
-package com.kas.practice;
+package com.kas.practice.chapter3;
 
 import java.util.Scanner;
 
@@ -7,11 +7,11 @@ public class Converter {
     final double CM_PER_INCH = 2.4;
     final double INCHES_PER_CM = 1 / 2.4;
     
-    double inchesToCms(int inches) {
+    public double inchesToCms(int inches) {
         return inches * CM_PER_INCH;
     }
     
-    double cmsToInches(int cm) {
+    public double cmsToInches(int cm) {
         return cm * INCHES_PER_CM;
     }
     
@@ -27,11 +27,11 @@ public class Converter {
         System.out.printf("Well done format: %.2f\n", inch * 2.4);
     }
 
-    double celciusToFahrenheit(double celcius) {
+    public double celciusToFahrenheit(double celcius) {
         return celcius * (9.0 / 5.0) + 32;
     }
 
-    String totalSeconds(int value) {
+    public String totalSeconds(int value) {
         int restSeconds = 0;
         int totalSecondsInOneHour = 3600;
         int totalSecondsInOneMinute = 60;

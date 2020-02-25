@@ -1,4 +1,4 @@
-package com.kas.practice;
+package com.kas.practice.chapter3;
 
 import java.util.Random;
 import java.util.Scanner;

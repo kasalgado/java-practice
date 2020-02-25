@@ -1,4 +1,4 @@
-package com.kas.practice;
+package com.kas.practice.chapter2;
 
 public class Time {
 

@@ -1,4 +1,4 @@
-package com.kas.practice;
+package com.kas.practice.chapter5;
 
 public class Blastoff {
     
